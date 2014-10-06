@@ -1,0 +1,35 @@
+# =============================================
+# Build config
+# =============================================
+root:             build
+dest:             <%= site.root %>
+assets:           <%= site.dest %>
+
+# Data
+data:             data/*.{json,yml}
+
+# Templates
+templates:        templates
+includes:         <%= site.templates %>/includes/*.hbs
+layouts:          <%= site.templates %>/layouts
+layout:           default.hbs
+
+# Extensions
+helpers:
+  - <%= site.templates %>/helpers/*.js
+  - handlebars-helper-br
+
+# Theme
+theme:            theme
+
+# SEO/SEM
+ga:
+  id:             false
+  domain:         assemble.github.io
+  siteid:         false
+  tags:           false
+
+# Social
+social:
+  twitter:        http://www.twitter.com/amabla
+  github:         http://www.github.com/amabla

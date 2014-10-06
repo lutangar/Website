@@ -1,0 +1,75 @@
+# =============================================
+# Site content
+# =============================================
+brand:            Amabla
+title:            Espace de co-working sympa à Villeurbanne
+lead:             Un co-working space sympa à Lyon pour les techos du Web
+address:          26 rue Louis Guérin - 69100 Villeurbanne
+more:             En voir plus
+contact_email:    contact@amabla.org
+contact_phone:    +33 6 34 21 67 77
+
+contact:
+    title:                  Vous voulez en savoir plus ?
+    description:            N'hésitez pas à nous contacter ou à venir nous voir!
+
+navigation:
+    space:                  L'espace
+    offers:                 Les formules
+    about:                  L'association
+    coworkers:              Les Co-workers
+    contact:                Où nous trouver?
+
+offers:
+    title:                  Nos différentes formules
+    description:            "Amabla propose différentes formules. Les prestations suivantes sont incluses pour toutes les formules:<br />Accès illimité à l'espace, accès internet, climatisation, accès à la cuisine, salle de réunion"
+    offer1:
+        title:              Bureau volant
+        description:        "Un bureau non attitré au sein de l'open-space, accessible aux heures d'ouverture les jours ouvrés."
+    offer2:
+        title:              Petit bureau privé
+        description:        Un bureau privé pouvant accueillir jusqu'à <b>3 personnes</b>. Idéal pour les startups.
+    offer3:
+        title:              Grand bureau privé
+        description:        Un grand bureau privé pouvant accueillir jusqu'à <b>5 personnes</b>. Pour les startups... un peu plus grosses :)
+
+coworkers:
+    title:                  Quelques Co-workers
+    description:            Amabla habrite aussi bien des startups que des freelances.<br />Voici quelques uns de nos Co-workers
+    subtitle:
+    coworkers:
+        - name:              Evibe
+          position:          Startup
+        - name:              KlubUp
+          position:          Startup
+        - name:              François
+          position:          Graphiste
+        - name:              Damien
+          position:          Développeur
+        - name:              Gérard
+          position:          Web Développeur
+        - name:              Thierry
+          position:          Mobile Developpeur
+
+
+about:
+    title:                  L'association Amabla
+    description:            C'est avant tout une association qu'elle est bien
+
+space:
+    title:                  L'espace
+    description:            "Situé à 2 pas du Parc de la tête d'or, l'espace Amabla propose <b>200m2 de bureau</b> à Villeurbanne.<br />Pour tous les besoins, nous proposons des bureaux volants ou des bureaux dédiés."
+    slides:
+        - image:            "/images/space/1.png"
+          caption:          "Salle de bain"
+          default:          true
+        - image:            "/images/space/1.png"
+          caption:          "Cuisine"
+        - image:            "/images/space/1.png"
+          caption:          "Chambre"
+        - image:            "/images/space/1.png"
+          caption:          "Salle de jeux"
+        - image:            "/images/space/1.png"
+          caption:          "Salle de bain"
+        - image:            "/images/space/1.png"
+          caption:          "Salle de bain"
