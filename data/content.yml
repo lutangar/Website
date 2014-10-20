@@ -4,14 +4,19 @@
 brand:            Amabla
 title:            Espace de co-working sympa à Villeurbanne
 lead:             Un co-working space sympa à Lyon pour les techos du Web
-address:          26 rue Louis Guérin - 69100 Villeurbanne
 more:             En voir plus
-contact_email:    contact@amabla.org
-contact_phone:    +33 6 34 21 67 77
 
 contact:
     title:                  Vous voulez en savoir plus ?
     description:            N'hésitez pas à nous contacter ou à venir nous voir!
+    name:                   Association Amabla
+    phone:                  +33 6 34 21 67 77
+    email:                  contact@amabla.org
+    adresse1:               26 rue Louis Guérin
+    adresse2:               69100 Villeurbanne
+    map_url:                "https://www.google.fr/maps/place/26+Rue+Louis+Guérin,+69100+Villeurbanne"
+    twitter:                "@AmablaOrg"
+    github:                 "@amabla"
 
 navigation:
     space:                  L'espace
@@ -23,15 +28,19 @@ navigation:
 offers:
     title:                  Nos différentes formules
     description:            "Amabla propose différentes formules. Les prestations suivantes sont incluses pour toutes les formules:<br />Accès illimité à l'espace, accès internet, climatisation, accès à la cuisine, salle de réunion"
+    tarif_maximum:          "* Tarifs maximums Il s'agit du prix coûtant des bureaux. Etant une association, il est toujours possible d'adapter les montants en fonction de vos possibilités."
     offer1:
-        title:              Bureau volant
+        title:              Bureau open space
         description:        "Un bureau non attitré au sein de l'open-space, accessible aux heures d'ouverture les jours ouvrés."
+        tarif:              150 €
     offer2:
-        title:              Petit bureau privé
+        title:              Petit bureau privatif
         description:        Un bureau privé pouvant accueillir jusqu'à <b>3 personnes</b>. Idéal pour les startups.
+        tarif:              350 €
     offer3:
-        title:              Grand bureau privé
+        title:              Grand bureau privatif
         description:        Un grand bureau privé pouvant accueillir jusqu'à <b>5 personnes</b>. Pour les startups... un peu plus grosses :)
+        tarif:              650 €
 
 coworkers:
     title:                  Quelques Co-workers
@@ -40,36 +49,44 @@ coworkers:
     coworkers:
         - name:              Evibe
           position:          Startup
+          image:             evibe.png
+          link:              http://www.evibe.com
+        - name:              Xavier
+          position:          Président Amabla
+          image:             xavier.png
+          link:              https://www.github.com/xgorse          
+        - name:              Rémi
+          position:          Porteur du projet Story-Makers
+          image:             remi.png
+          link:              https://github.com/Dreeckan
         - name:              KlubUp
           position:          Startup
-        - name:              François
-          position:          Graphiste
-        - name:              Damien
-          position:          Développeur
-        - name:              Gérard
-          position:          Web Développeur
-        - name:              Thierry
-          position:          Mobile Developpeur
+          image:             klubup.png
+          link:              https://www.klubup.com          
+        - name:              Laurence
+          position:          Commerciale chez Elao
+          image:             laurence.png
+          link:              http://www.elao.com                    
+        - name:              Nicolas
+          position:          Trésorier Amabla
+          image:             nicolas.png
+          link:              https://github.com/Kanouille
+
 
 
 about:
     title:                  L'association Amabla
-    description:            C'est avant tout une association qu'elle est bien
+    description:            >
+                            Amabla est une association loi 1901 <a href="/status.pdf" target="_blank">(télécharger les status de l'assocation)</a> créée à l'initiative de la <a href="http://www.elao.com" target="_blank">société Elao</a> dans le but d'ouvrir ses bureaux non utilisés aux freelances et startups du Web.
+                            L'aspect associatif permet de garantir une transparence dans l'utilisation des cotisations.
 
 space:
     title:                  L'espace
     description:            "Situé à 2 pas du Parc de la tête d'or, l'espace Amabla propose <b>200m2 de bureau</b> à Villeurbanne.<br />Pour tous les besoins, nous proposons des bureaux volants ou des bureaux dédiés."
     slides:
-        - image:            "/images/space/1.png"
-          caption:          "Salle de bain"
+        - image:            "/images/space/1.jpg"
           default:          true
-        - image:            "/images/space/1.png"
-          caption:          "Cuisine"
-        - image:            "/images/space/1.png"
-          caption:          "Chambre"
-        - image:            "/images/space/1.png"
-          caption:          "Salle de jeux"
-        - image:            "/images/space/1.png"
-          caption:          "Salle de bain"
-        - image:            "/images/space/1.png"
-          caption:          "Salle de bain"
+        - image:            "/images/space/2.jpg"
+        - image:            "/images/space/3.jpg"
+#        - image:            "/images/space/4.jpg"
+#        - image:            "/images/space/5.jpg"

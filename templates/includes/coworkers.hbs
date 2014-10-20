@@ -11,7 +11,9 @@
             {{#each content.coworkers.coworkers}}
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                     <div class="team-member">
-                        <img src="/images/coworkers/{{@index}}.jpg" class="img-responsive img-circle" alt="">
+                        <a href="{{ link }}" target="_blank">
+                            <img src="/images/coworkers/{{ image }}" class="img-responsive img-circle" alt="">
+                        </a>
                         <h4>{{ name }}</h4>
                         <p class="text-muted">{{ position }}</p>
                     </div>

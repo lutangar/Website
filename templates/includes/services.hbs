@@ -10,27 +10,33 @@
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">{{ content.offers.offer1.title }}</h4>
+                <h2 class="service-heading">{{ content.offers.offer1.tarif }}*</h2>
                 <p class="text-muted">{{{ content.offers.offer1.description }}}</p>
             </div>
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-star-half-o fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">{{ content.offers.offer2.title }}</h4>
+                <h2 class="service-heading">{{ content.offers.offer2.tarif }}*</h2>
                 <p class="text-muted">{{{ content.offers.offer2.description }}}</p>
             </div>
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-star fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">{{ content.offers.offer3.title }}</h4>
+                <h2 class="service-heading">{{ content.offers.offer3.tarif }}*</h2>
                 <p class="text-muted">{{{ content.offers.offer3.description }}}</p>
             </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-md-6 col-md-offset-3 well"><em>{{ content.offers.tarif_maximum }}</em></div>         
         </div>
     </div>
 </section>

@@ -1,7 +1,7 @@
 # =============================================
 # Build config
 # =============================================
-root:             build
+root:             ../amabla.github.io
 dest:             <%= site.root %>
 assets:           <%= site.dest %>
 
@@ -31,5 +31,5 @@ ga:
 
 # Social
 social:
-  twitter:        http://www.twitter.com/amabla
+  twitter:        https://twitter.com/amablaOrg
   github:         http://www.github.com/amabla

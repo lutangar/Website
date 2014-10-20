@@ -31,7 +31,7 @@ module.exports = function(grunt) {
                 paths: [ '<%= site.theme %>'],
             },
             site: {
-                src: ['<%= site.theme %>/agency.less'],
+                src: ['<%= site.theme %>/agency.less', '<%= site.theme %>/custom.less'],
                 dest: '<%= site.assets %>/css/site.css'
             }
         },
@@ -80,7 +80,8 @@ module.exports = function(grunt) {
                     {expand: true, cwd: '<%= bootstrap %>/dist/js',    src: ['*.*'], dest: '<%= site.assets %>/js/'},
                     {expand: true, cwd: '<%= site.theme %>/js/',        src: ['*.*'], dest: '<%= site.assets %>/js/'},
 
-                    {expand: true, cwd: '<%= site.theme %>/images/',        src: ['**/*.*'], dest: '<%= site.assets %>/images/'}
+                    {expand: true, cwd: '<%= site.theme %>/images/',        src: ['**/*.*'], dest: '<%= site.assets %>/images/'},
+                    {expand: true, cwd: '<%= site.theme %>/',    src: ['favicon.ico'], dest: '<%= site.dest %>'}
                 ]
             }
         }
