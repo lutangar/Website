@@ -81,7 +81,7 @@ module.exports = function(grunt) {
                     {expand: true, cwd: '<%= site.theme %>/js/',        src: ['*.*'], dest: '<%= site.assets %>/js/'},
 
                     {expand: true, cwd: '<%= site.theme %>/images/',        src: ['**/*.*'], dest: '<%= site.assets %>/images/'},
-                    {expand: true, cwd: '<%= site.theme %>/',    src: ['favicon.ico'], dest: '<%= site.dest %>'}
+                    {expand: true, cwd: '<%= site.theme %>/',    src: ['favicon.ico', 'statuts_amabla.pdf'], dest: '<%= site.dest %>'}
                 ]
             }
         }

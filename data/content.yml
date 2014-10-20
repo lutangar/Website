@@ -2,7 +2,7 @@
 # Site content
 # =============================================
 brand:            Amabla
-title:            Espace de co-working sympa à Villeurbanne
+title:            Co-working associatif des acteurs du web à Lyon
 lead:             Un co-working space sympa à Lyon pour les techos du Web
 more:             En voir plus
 
@@ -28,23 +28,23 @@ navigation:
 offers:
     title:                  Nos différentes formules
     description:            "Amabla propose différentes formules. Les prestations suivantes sont incluses pour toutes les formules:<br />Accès illimité à l'espace, accès internet, climatisation, accès à la cuisine, salle de réunion"
-    tarif_maximum:          "* Tarifs maximums Il s'agit du prix coûtant des bureaux. Etant une association, il est toujours possible d'adapter les montants en fonction de vos possibilités."
+    tarif_maximum:          "* Tarifs maximums. Il s'agit du prix coûtant des bureaux. Etant une association, il est toujours possible d'adapter les montants en fonction de vos possibilités."
     offer1:
         title:              Bureau open space
         description:        "Un bureau non attitré au sein de l'open-space, accessible aux heures d'ouverture les jours ouvrés."
-        tarif:              150 €
+        tarif:              150 € HT / Mois
     offer2:
         title:              Petit bureau privatif
         description:        Un bureau privé pouvant accueillir jusqu'à <b>3 personnes</b>. Idéal pour les startups.
-        tarif:              350 €
+        tarif:              350 € HT / Mois
     offer3:
         title:              Grand bureau privatif
         description:        Un grand bureau privé pouvant accueillir jusqu'à <b>5 personnes</b>. Pour les startups... un peu plus grosses :)
-        tarif:              650 €
+        tarif:              650 € HT / Mois
 
 coworkers:
     title:                  Quelques Co-workers
-    description:            Amabla habrite aussi bien des startups que des freelances.<br />Voici quelques uns de nos Co-workers
+    description:            Amabla abrite aussi bien des startups que des freelances.<br />Voici quelques uns de nos Co-workers
     subtitle:
     coworkers:
         - name:              Evibe
@@ -77,12 +77,13 @@ coworkers:
 about:
     title:                  L'association Amabla
     description:            >
-                            Amabla est une association loi 1901 <a href="/status.pdf" target="_blank">(télécharger les status de l'assocation)</a> créée à l'initiative de la <a href="http://www.elao.com" target="_blank">société Elao</a> dans le but d'ouvrir ses bureaux non utilisés aux freelances et startups du Web.
+                            Amabla est une association loi 1901 <a href="/statuts_amabla.pdf" target="_blank">(télécharger les status de l'assocation)</a> créée à l'initiative de la <a href="http://www.elao.com" target="_blank">société Elao</a> dans le but d'ouvrir ses bureaux non utilisés aux freelances et startups du Web.
                             L'aspect associatif permet de garantir une transparence dans l'utilisation des cotisations.
 
 space:
     title:                  L'espace
     description:            "Situé à 2 pas du Parc de la tête d'or, l'espace Amabla propose <b>200m2 de bureau</b> à Villeurbanne.<br />Pour tous les besoins, nous proposons des bureaux volants ou des bureaux dédiés."
+    equipements:            "Equipements: Cuisine <i class='fa fa-cutlery'></i>, Machines à café <i class='fa fa-coffee'></i>, climatisation, salle de réunion <i class='fa fa-users'></i>, Internet <i class='fa fa-globe'></i>."
     slides:
         - image:            "/images/space/1.jpg"
           default:          true
