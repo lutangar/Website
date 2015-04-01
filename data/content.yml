@@ -71,7 +71,10 @@ coworkers:
           position:          Trésorier Amabla
           image:             nicolas.png
           link:              https://github.com/Kanouille
-
+        - name:              Johan
+          position:          Secrétaire Amabla
+          image:             lutangar.png
+          link:              https://twitter.com/lutangar
 
 
 about:
