@@ -32,15 +32,15 @@ offers:
     offer1:
         title:              Bureau open space
         description:        "Un bureau non attitré au sein de l'open-space, accessible aux heures d'ouverture les jours ouvrés."
-        tarif:              150 € HT / Mois
+        tarif:              80 € HT / Mois
     offer2:
         title:              Petit bureau privatif
         description:        Un bureau privé pouvant accueillir jusqu'à <b>3 personnes</b>. Idéal pour les startups.
-        tarif:              350 € HT / Mois
+        tarif:              375 € HT / Mois
     offer3:
         title:              Grand bureau privatif
         description:        Un grand bureau privé pouvant accueillir jusqu'à <b>5 personnes</b>. Pour les startups... un peu plus grosses :)
-        tarif:              650 € HT / Mois
+        tarif:              750 € HT / Mois
 
 coworkers:
     title:                  Quelques Co-workers
@@ -54,7 +54,7 @@ coworkers:
         - name:              Xavier
           position:          Président Amabla
           image:             xavier.png
-          link:              https://www.github.com/xgorse          
+          link:              https://www.github.com/xgorse
         - name:              Rémi
           position:          Porteur du projet Story-Makers
           image:             remi.png
@@ -62,16 +62,19 @@ coworkers:
         - name:              KlubUp
           position:          Startup
           image:             klubup.png
-          link:              https://www.klubup.com          
+          link:              https://www.klubup.com
         - name:              Laurence
           position:          Commerciale chez Elao
           image:             laurence.png
-          link:              http://www.elao.com                    
+          link:              http://www.elao.com
         - name:              Nicolas
           position:          Trésorier Amabla
           image:             nicolas.png
           link:              https://github.com/Kanouille
-
+        - name:              Johan
+          position:          Secrétaire Amabla
+          image:             lutangar.png
+          link:              https://twitter.com/lutangar
 
 
 about:
