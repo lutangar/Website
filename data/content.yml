@@ -10,11 +10,10 @@ contact:
     title:                  Vous voulez en savoir plus ?
     description:            N'hésitez pas à nous contacter ou à venir nous voir!
     name:                   Association Amabla
-    phone:                  +33 6 34 21 67 77
     email:                  contact@amabla.org
-    adresse1:               26 rue Louis Guérin
+    adresse1:               66 rue Louis Becker
     adresse2:               69100 Villeurbanne
-    map_url:                "https://www.google.fr/maps/place/26+Rue+Louis+Guérin,+69100+Villeurbanne"
+    map_url:                "https://www.google.fr/maps/place/66+Rue+Louis+Becker,+69100+Villeurbanneœ"
     twitter:                "@AmablaOrg"
     github:                 "@amabla"
 
@@ -32,15 +31,11 @@ offers:
     offer1:
         title:              Bureau open space
         description:        "Un bureau non attitré au sein de l'open-space, accessible aux heures d'ouverture les jours ouvrés."
-        tarif:              80 € HT / Mois
+        tarif:              126 € HT / Mois
     offer2:
-        title:              Petit bureau privatif
+        title:              Petit bureau privatif (en rupture)
         description:        Un bureau privé pouvant accueillir jusqu'à <b>3 personnes</b>. Idéal pour les startups.
         tarif:              375 € HT / Mois
-    offer3:
-        title:              Grand bureau privatif
-        description:        Un grand bureau privé pouvant accueillir jusqu'à <b>5 personnes</b>. Pour les startups... un peu plus grosses :)
-        tarif:              750 € HT / Mois
 
 coworkers:
     title:                  Quelques Co-workers
@@ -51,10 +46,6 @@ coworkers:
           position:          Startup
           image:             evibe.png
           link:              http://www.evibe.com
-        - name:              Xavier
-          position:          Président Amabla
-          image:             xavier.png
-          link:              https://www.github.com/xgorse
         - name:              Rémi
           position:          Porteur du projet Story-Makers
           image:             remi.png
@@ -67,30 +58,37 @@ coworkers:
           position:          Commerciale chez Elao
           image:             laurence.png
           link:              http://www.elao.com
-        - name:              Nicolas
+        - name:              Jérémy
+          position:          Développeur Freelance
+          image:             pixocode.png
+          link:              https://github.com/pixocode
+        - name:              Alexandre Balmes
           position:          Trésorier Amabla
-          image:             nicolas.png
-          link:              https://github.com/Kanouille
+          image:             alexandre_balmes.jpeg
+          link:              https://github.com/pockystar
         - name:              Johan
-          position:          Secrétaire Amabla
+          position:          Aimable président
           image:             lutangar.png
-          link:              https://twitter.com/lutangar
-
+          link:              https://larriereguichet.fr
+        - name:              Manon
+          position:          Secrétaire Amabla
+          image:             manon_burgel.png
+          link:              https://beyond-the-void.net/
 
 about:
     title:                  L'association Amabla
     description:            >
-                            Amabla est une association loi 1901 <a href="/statuts_amabla.pdf" target="_blank">(télécharger les status de l'assocation)</a> créée à l'initiative de la <a href="http://www.elao.com" target="_blank">société Elao</a> dans le but d'ouvrir ses bureaux non utilisés aux freelances et startups du Web.
+                            Amabla est une association loi 1901 <a href="/statuts_amabla.pdf" target="_blank">(télécharger les status de l'assocation)</a> s'adressant aux freelances et startups du Web.
                             L'aspect associatif permet de garantir une transparence dans l'utilisation des cotisations.
 
 space:
     title:                  L'espace
-    description:            "Situé à 2 pas du Parc de la tête d'or, l'espace Amabla propose <b>200m2 de bureau</b> à Villeurbanne.<br />Pour tous les besoins, nous proposons des bureaux volants ou des bureaux dédiés."
-    equipements:            "Equipements: Cuisine <i class='fa fa-cutlery'></i>, Machines à café <i class='fa fa-coffee'></i>, climatisation, salle de réunion <i class='fa fa-users'></i>, Internet <i class='fa fa-globe'></i>."
+    description:            "Situé dans un ancien atelier, l'espace Amabla propose un open-space au coeur de Villeurbanne.<br />Pour tous les besoins, nous proposons des bureaux volants ou des bureaux dédiés."
+    equipements:            "Equipements: Cuisine <i class='fa fa-cutlery'></i>, Machines à café <i class='fa fa-coffee'></i>, salle de réunions <i class='fa fa-users'></i>, Internet <i class='fa fa-globe'></i>."
     slides:
         - image:            "/images/space/1.jpg"
           default:          true
-        - image:            "/images/space/2.jpg"
-        - image:            "/images/space/3.jpg"
+  #        - image:            "/images/space/2.jpg"
+  #        - image:            "/images/space/3.jpg"
 #        - image:            "/images/space/4.jpg"
 #        - image:            "/images/space/5.jpg"
