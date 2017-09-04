@@ -29,11 +29,15 @@ offers:
     description:            "Amabla propose différentes formules. Les prestations suivantes sont incluses pour toutes les formules:<br />Accès illimité à l'espace, accès internet, climatisation, accès à la cuisine, salle de réunion"
     tarif_maximum:          "* Tarifs maximums. Il s'agit du prix coûtant des bureaux. Etant une association, il est toujours possible d'adapter les montants en fonction de vos possibilités."
     offer1:
+        title:              Une journée comme ça
+        description:        "Passer autant de journées que vous souhaitez dans le mois grâce au tarif dégressif. Accessible aux heures d'ouverture les jours ouvrés."
+        tarif:              20 € TTC / Jour
+    offer1:
         title:              Bureau open space
-        description:        "Un bureau non attitré au sein de l'open-space, accessible aux heures d'ouverture les jours ouvrés."
-        tarif:              126 € HT / Mois
+        description:        "Un bureau non attitré au sein de l'open-space, accessible à toutes heures."
+        tarif:              125 € HT / Mois
     offer2:
-        title:              Petit bureau privatif (en rupture)
+        title:              Petit bureau privatif
         description:        Un bureau privé pouvant accueillir jusqu'à <b>3 personnes</b>. Idéal pour les startups.
         tarif:              375 € HT / Mois
 
@@ -62,7 +66,7 @@ coworkers:
           position:          Développeur Freelance
           image:             pixocode.png
           link:              https://github.com/pixocode
-        - name:              Alexandre Balmes
+        - name:              Alexandre
           position:          Trésorier Amabla
           image:             alexandre_balmes.jpeg
           link:              https://github.com/pockystar
