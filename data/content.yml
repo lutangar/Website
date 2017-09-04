@@ -32,11 +32,11 @@ offers:
         title:              Une journée comme ça
         description:        "Passer autant de journées que vous souhaitez dans le mois grâce au tarif dégressif. Accessible aux heures d'ouverture les jours ouvrés."
         tarif:              20 € TTC / Jour
-    offer1:
+    offer2:
         title:              Bureau open space
         description:        "Un bureau non attitré au sein de l'open-space, accessible à toutes heures."
         tarif:              125 € HT / Mois
-    offer2:
+    offer3:
         title:              Petit bureau privatif
         description:        Un bureau privé pouvant accueillir jusqu'à <b>3 personnes</b>. Idéal pour les startups.
         tarif:              375 € HT / Mois
